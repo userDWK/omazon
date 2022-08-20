@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da102c75.css",
+    "main.js": "/static/js/main.5b7ee779.js",
+    "static/media/AmazonEmber_Rg.ttf": "/static/media/AmazonEmber_Rg.49d0b49cda15e913fdf2.ttf",
+    "static/media/mPGmT0r6IeTyIee.png": "/static/media/mPGmT0r6IeTyIee.9c24ee27e246d14414fb.png",
+    "static/media/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png": "/static/media/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.7ce4d67e154bd34cdc72.png",
+    "index.html": "/index.html",
+    "main.da102c75.css.map": "/static/css/main.da102c75.css.map",
+    "main.5b7ee779.js.map": "/static/js/main.5b7ee779.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da102c75.css",
+    "static/js/main.5b7ee779.js"
+  ]
+}
