@@ -1,0 +1,333 @@
+.accountContainer {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 0.35rem;
+  width: 100%;
+}
+.headerBox {
+  padding: 0.5rem 0 1rem;
+}
+.headerBox i {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  cursor: pointer;
+}
+input,
+button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 96%;
+  height: 2rem;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+input[type="submit"] {
+  background: #fbc14b;
+  cursor: pointer;
+}
+button {
+  background: #e7e9ec;
+  border-radius: 3px;
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  border: 1px solid;
+  cursor: pointer;
+}
+.hIcon {
+  background-image: url(../images/mPGmT0r6IeTyIee.png);
+  background-size: 400px 750px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: top;
+}
+.hIconLogin {
+  background-position: -5px -130px;
+  height: 31px;
+  width: 103px;
+}
+.mainBox {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(150, 150, 150, 0.4);
+  border-radius: 4px;
+  width: 22rem;
+  padding: 1rem;
+}
+.mainBox h2 {
+  font-weight: 400;
+  font-size: 1.75rem;
+  margin-left: 0.5rem;
+}
+.accountForm p {
+  margin-top: 1rem;
+  margin-left: 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+}
+.accountText {
+  margin-top: 0.15rem;
+  padding-left: 0.5rem;
+}
+.accountText:focus {
+  box-shadow: 0 0 7px #f0c14b;
+}
+.accountForm .accountSub {
+  width: 96%;
+  margin-top: 1rem;
+  background-color: #f5d14b;
+}
+input:focus,
+button:focus {
+  box-shadow: 0 0 1px rgba(150, 150, 150, 1) inset;
+  border: 1px solid rgba(230, 50, 50, 1);
+}
+input[type="submit"]:hover {
+  background: #f0c14b;
+  opacity: 0.9;
+  box-shadow: 0 0 5px rgba(150, 150, 150, 0.5) inset;
+}
+button:hover {
+  background: rgba(170, 170, 170, 0.4);
+  opacity: 0.9;
+  box-shadow: 0 0 5px rgba(150, 150, 150, 0.5) inset;
+}
+.accountForm .pvc {
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-right: 0.85rem;
+}
+.accountForm .help {
+  position: relative;
+  margin-top: 1.5rem;
+  font-weight: 100;
+  margin-bottom: 0.35rem;
+}
+.accountForm .help a {
+  display: block;
+  margin-left: 0.65rem;
+  position: relative;
+  width: auto;
+}
+.aHover:hover {
+  color: rgba(206, 154, 57, 0.637);
+}
+.aHover span {
+  position: relative;
+}
+.forgotPass {
+  margin-left: -0.5rem;
+}
+.aHover:hover span::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(206, 154, 57, 0.637);
+}
+.accountForm .help a:first-child {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.accountForm .help a:nth-child(2),
+.accountForm .help a:nth-child(3) {
+  margin-left: 1.1rem;
+  margin-top: 0.5rem;
+}
+.accountForm .help a:first-child .hIcon {
+  position: relative;
+  left: -1%;
+  width: 7px;
+  height: 7px;
+  background-position: -366px -86px;
+}
+.accountForm .help a:first-child .hIconHelp {
+  width: 7px;
+  height: 7px;
+  background-position: -382px -86px;
+  position: relative;
+  left: -2%;
+}
+.articleBox {
+  margin-top: 1.25rem;
+}
+.articleBox .createText {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  width: 22rem;
+}
+.articleBox .createText .createLine {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: inline-block;
+  width: 22rem;
+  height: 1px;
+  background: #e7e7e7;
+  width: 100%;
+  height: 1px;
+  z-index: -5;
+}
+.articleBox .createText .createBox {
+  display: inline-block;
+  background-color: white;
+  z-index: 10;
+}
+.articleBox button {
+  width: 22rem;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  margin-top: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.articleBox button:focus {
+  border: 1px solid rgba(230, 50, 50, 1);
+  box-shadow: 0 0 7px #f0c14b;
+}
+.navBox {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.14),
+    rgba(0, 0, 0, 0.03) 3px,
+    transparent
+  );
+}
+.navBox:before {
+  display: block;
+  width: 100%;
+  height: 44px;
+  background-color: transparent;
+  background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0), #fff);
+  z-index: 1;
+  content: "";
+  margin-bottom: -18px;
+  zoom: 1;
+}
+.footerBox .navBox nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerBox .navBox nav ul li a {
+  font-size: 0.7rem;
+  padding: 0 1rem;
+}
+.footerBox p {
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  text-align: center;
+}
+.emailControl {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.emailControl a {
+  margin-left: 0.5rem;
+}
+.forgotPass {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.forgotPass a {
+  margin-right: 0.5rem;
+}
+.keepSign {
+  display: flex;
+  justify-content: left;
+}
+.keepSign input {
+  position: relative;
+  top: 10%;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin: 0 0.5rem 0 0.25rem;
+  border-radius: 2px;
+}
+.keepSign a {
+  padding-right: 2rem;
+}
+.keep {
+  width: 7px;
+  height: 5px;
+  background-position: -90px -5px;
+  opacity: 0.6;
+  margin: 1px 0 0 0.385em;
+}
+.intro::before {
+  margin-top: 1.5rem;
+}
+.intro .help:last-child {
+  margin-top: 0;
+}
+.errorMsg {
+  color: red;
+}
+.intro .help {
+  display: flex;
+  margin-top: -1rem;
+}
+.alarm {
+  background-position: -346px -86px;
+  margin-left: 0.25rem;
+}
+.pvc .ruleIcon {
+  background-position: -166px -130px;
+  width: 14px;
+  height: 13px;
+  /* background-color: red; */
+}
+.createBox {
+  margin-bottom: 1.75rem;
+}
+.createBox .pvc {
+  margin-top: 0.4rem;
+}
+.createBox p {
+  margin: 0.5rem 0 0.5rem 0.5rem;
+}
+.hasEmail {
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 22.3rem;
+  margin: -0.75rem 0 3rem 0.25rem;
+}
+.hasEmail h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+.hasEmail p {
+  font-weight: 500;
+}
+.hasEmail p a {
+  position: relative;
+  display: inline-block;
+}
+.hasEmail p a::after {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%);
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #0066c0;
+  display: inline-block;
+}

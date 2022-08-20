@@ -1,0 +1,66 @@
+.con {
+  position: relative;
+  width: 100%;
+  height: 4rem;
+}
+.con .headerUpper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+}
+.headerLogo {
+  width: 120px;
+  height: 41px;
+  background: url(../images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png)
+    no-repeat;
+  background-position: 0 -45px;
+  z-index: 10;
+  margin-left: 1rem;
+}
+.headerlocation {
+  position: relative;
+  color: white;
+  margin-left: 1rem;
+}
+.headerlocation i {
+  position: absolute;
+  left: -12%;
+  top: 30%;
+  width: 22px;
+  height: 22px;
+  background: url(../images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png)
+    no-repeat;
+  background-position: -68px -375px;
+}
+.headerlocation span {
+  font-weight: 600;
+}
+.headerSearch .searchBox {
+  /* width: 16rem; */
+  margin-left: 1rem;
+}
+.headerSearch .searchBox form {
+}
+.headerSearch .searchBox form select {
+  width: 3rem;
+  height: 3rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  overflow: visible;
+}
+/* .headerSearch .searchBox form select::after {
+    content : "";
+    display : block;
+    
+} */
+.headerSearch .searchBox form input[type="text"] {
+  width: 10rem;
+  height: 3rem;
+}
+.headerSearch .searchBox form input[type="submit"] {
+  width: 3rem;
+  height: 3rem;
+}
